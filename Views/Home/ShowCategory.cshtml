@@ -1,4 +1,3 @@
-@model Category;
 <link rel="stylesheet" href="~/css/styles.css">
 @await Html.PartialAsync("_Nav")
 <div class="text-center mb-4">
@@ -15,7 +14,7 @@
             <h2>Add Product</h2>
         </div>
         <div>
-
+            @await Html.PartialAsync("_ProductSelect")
         </div>
     </div>
 </div>

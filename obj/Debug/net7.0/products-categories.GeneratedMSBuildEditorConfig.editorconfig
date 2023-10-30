@@ -32,8 +32,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93UHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[c:/Users/snela/Desktop/products-categories/Views/Home/_CategorySelect.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfQ2F0ZWdvcnlTZWxlY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/Users/snela/Desktop/products-categories/Views/Home/_Nav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfTmF2LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/snela/Desktop/products-categories/Views/Home/_ProductSelect.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfUHJvZHVjdFNlbGVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/Users/snela/Desktop/products-categories/Views/Shared/Error.cshtml]
