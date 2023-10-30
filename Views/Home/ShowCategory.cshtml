@@ -1,3 +1,4 @@
+@model Category;
 <link rel="stylesheet" href="~/css/styles.css">
 @await Html.PartialAsync("_Nav")
 <div class="text-center mb-4">
@@ -7,6 +8,14 @@
     <div class="col-md-6">
         <div class="text-center">
             <h2>Products</h2>
+        </div>
+        <div class="text-left">
+            <ul>
+                @foreach (var association in Model.Products)
+                {
+                    <li>@association.Product.Name</li>
+                }
+            </ul>
         </div>
     </div>
     <div class="col-md-6">

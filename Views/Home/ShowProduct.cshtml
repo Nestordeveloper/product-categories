@@ -9,13 +9,7 @@
             <h2>Categories</h2>
         </div>
         <div>
-            @foreach (var category in ViewBag.AllCategories)
-            {
-                <li>
-                    <a asp-controller="categories" asp-action="ShowCategory"
-                        asp-route-id="@category.CategoryId">@category.Name</a>
-                </li>
-            }
+
         </div>
     </div>
     <div class="col-md-6">
