@@ -1,0 +1,37 @@
+.navContainer {
+    border-right: 2px solid black;
+    padding: 0 10px;
+    font-size: 1.4rem;
+}
+
+.navContainer:last-child {
+    border-right: none;
+}
+
+.navigation {
+    padding: 20px 0;
+}
+
+.colContent {
+    border-right: 2px solid black;
+}
+
+.colContent:last-child {
+    border-right: none;
+}
+.btnSubmit{
+    padding: 20px;
+}
+.listProducts ul{
+    list-style: none;
+}
+.listProducts li{
+    font-size: 1.2rem;
+}
+
+.listCategories ul{
+    list-style: none;
+}
+.listCategories li{
+    font-size: 1.2rem;
+}

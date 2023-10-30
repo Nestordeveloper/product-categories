@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Categories";
+}
+@model Category;
+<link rel="stylesheet" href="~/css/styles.css">
+@await Html.PartialAsync("_Nav")
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="text-center">
+                <h2>New Category</h2>
+            </div>
+            <div>
+                <form asp-action="CreateCategory" asp-controller="Home" method="post">
+                    <div class="form-group">
+                        <label asp-for="Name">Name:</label>
+                        <input asp-for="Name" type="text" class="form-control">
+                    </div>
+                    <div class="btnSubmit">
+                        <button type="submit" class="btn btn-primary">Create</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="text-center">
+                <h2>All Categories</h2>
+            </div>
+            <div class="listCategories">
+                <ul>
+                    @foreach (var category in ViewBag.AllCategories)
+                    {
+                        <li>
+                            <a asp-controller="categories" asp-action="ShowCategory"
+                                asp-route-id="@category.CategoryId">@category.Name</a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
